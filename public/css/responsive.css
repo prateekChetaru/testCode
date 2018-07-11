@@ -1,0 +1,47 @@
+@media screen and (max-width: 1600px) {
+	body {font-size: 15px}
+	.loing-text h1 {padding:0 0 80px;}
+	.download-app {margin: 54px auto 0;}
+}
+
+@media screen and (max-width: 1444px) {
+	body {font-size: 14px}
+	.loing-text {padding: 50px 65px;}
+}
+
+@media screen and (max-width: 1366px) {
+	.loing-text h1 {padding: 0 0 39px;}
+	.loing-text {padding: 50px;}
+	.logo-section {width: 60%;}
+	.login-content {width: 40%;}
+	.logo-box {padding: 50px;}
+	.login-content .form-section .form-group {margin-bottom: 10px;}
+	.download-app {margin: 40px auto 0;}
+	
+}
+@media screen and (max-width:992px) { 
+	.loing-text h1 {font-size: 2.5em;padding: 0 0 19px;}
+	.loing-text {padding:30px;}
+	.login-content {width: 45%;} 
+	.download-app {margin: 30px auto 0;}
+}
+@media screen and (max-width:767px) {
+	.loing-text .logo-box { display: block; } 
+	.loing-text h1 {display: none;}
+	.logo-section {display: none;}
+	.loing-text .logo-box img {width: auto;max-width: 100%;}
+	.login-content {width:100%;background: url(../images/login-bg.jpg) no-repeat center center; background-size: cover;} 
+	.login-content .form-section input {background-color: transparent; border-color: #fff;}
+	.login-content .form-section input::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#fff; }
+	.login-content .form-section input::-moz-placeholder { /* Firefox 19+ */ color: #fff; }
+	.login-content .form-section input:-ms-input-placeholder { /* IE 10+ */ color: #fff; }
+	.login-content .form-section input:-moz-placeholder { /* Firefox 18- */ color: #fff; }
+	.form-section button.btn.btn-primary {background-color: #fff; color: #3498db;}
+	.forget-pass,.account,.download-app span {font-size: 1em; color: #fff;}
+	.account a,.download-app span a {color: #000;}
+	.logo-box {padding: 15px 20px 30px;}
+	section.loging-section {height: 100%;}
+}
+@media screen and (max-width:480px) {
+	.forget-pass, .account {width: 100%; text-align: center;}
+}
