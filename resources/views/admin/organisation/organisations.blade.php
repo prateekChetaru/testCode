@@ -43,9 +43,11 @@
 				<div class="tab-content" id="pills-tabContent">
 					<div class="row tab-pane fade show active" id="pills-organisations" role="tabpanel" aria-labelledby="pills-organisations-tab">
 						<div class="organisations-section">
+							
 							@foreach($organisation as $value)
 							<div class="col-md-4">
-								<div class="organisations-list">
+								<a href="{!!route('organisation.edit',['id'=>base64_encode($value->id)])!!}">
+									<div class="organisations-list">
 									
 									<div class="organisations-logo-box">
 										@if(!empty($value->ImageURL))
@@ -62,7 +64,7 @@
 										</p>
 										<p> <a href="{{$value->website}}">{{$value->website}}</a> </p>
 									</div>
-								</div>
+								</div></a>
 							</div>
 							@endforeach
 

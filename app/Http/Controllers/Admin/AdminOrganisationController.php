@@ -136,4 +136,14 @@ class AdminOrganisationController extends Controller
     }
 
 
+    public function edit($id)
+    {
+      $id = base64_decode($id);
+      $organisation = Organisation::where('id',$id)->get();
+      
+      return view('admin/organisation/edit',compact('organisation'));
+        
+
+    }
+
   }

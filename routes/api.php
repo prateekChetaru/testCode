@@ -18,13 +18,13 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 /*for user login process*/
-Route::post('userLogin', 'API\ApiLoginController@login');
+// Route::post('userLogin', 'API\ApiLoginController@login');
 
-Route::group(['middleware' => 'auth:api'], function(){
+// Route::group(['middleware' => 'auth:api'], function(){
 
 	
-});
+// });
 
-Route::post('addOrg','API\ApiTestController@insertOrg');
+// Route::post('addOrg','API\ApiTestController@insertOrg');
 
 
