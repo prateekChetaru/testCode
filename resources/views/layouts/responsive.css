@@ -1,0 +1,169 @@
+@media screen and (max-width: 1600px) {
+	body {font-size: 15px}
+	.loing-text h1 {padding:0 0 80px;}
+	.download-app {margin: 54px auto 0;}
+	.add-btn-section a.btn span {padding-top: 3px;}
+	.staff-list-box {padding:20px 20px 5px;}
+	.staff-list .staff-list-section .col-md-3 {max-width: 33.333%;flex: 0 0 33.333%;}
+}
+
+@media screen and (max-width: 1444px) {
+	body {font-size: 14px}
+	.loing-text {padding: 50px 65px;}
+	.ragistration-detele-section label {padding-top: 21px;}
+	.ragistration-detele-section .col-md-9 input,
+	.ragistration-detele-section .col-md-9 select.form-control:not([size]):not([multiple]) {height: 65px;}
+	.fild-stats-cont .add-content .col-md-6 {margin-bottom: 12px;}
+	.organisations-list .organisations-logo-box img {max-width: 100%;}
+	.staff-list-section .col-md-3 {max-width: 33.333%;flex: 0 0 33.333%;}
+}
+
+@media screen and (max-width: 1366px) {
+	.loing-text h1 {padding: 0 0 39px;}
+	.loing-text {padding: 50px;}
+	.logo-section {width: 60%;}
+	.login-content {width: 40%;}
+	.logo-box {padding: 50px;}
+	.login-content .form-section .form-group {margin-bottom: 10px;}
+	.download-app {margin: 40px auto 0;}
+	.staff-list .staff-list-section .col-md-3 {max-width: 50%;flex: 0 0 50%;}
+	.add-btn-section a.btn {margin-left:5px;}
+	.add-btn-section a.btn:first-child {margin-left: 0px;}
+	.content-top .col-md-6:first-child {flex: 0 0 40%; max-width: 40%; }
+	.content-top .col-md-6:last-child {flex: 0 0 60%; max-width: 60%; }
+	
+}
+@media screen and (max-width:1100px) {
+	.search-section input[type="serch"] {width: 100%;}
+	nav {width: 250px;}
+	.logo-box a img {width: 130px;}
+	.logo-box a {width: 130px}
+	nav .logo-box {padding: 33px 22px 32px 22px;}
+	.sidebar-menu,.sidebar-menu ul {width: 250px;}
+	.sidebar-menu ul li a {padding: 12px 22px 16px 22px;}
+	.sidebar-menu ul li ul.sub-menu li a {padding: 5px 0 4px 52px;}
+	span.nav-arrow {padding-top: 14px;}
+	nav .tob-nve-btn {top: 27px;}
+	.top-scrollbar {margin-left: 250px;}
+	.dashbowrd .col-md-7 {max-width: 100%; flex:0 0 100%;}
+	.dashbowrd .col-md-5 {max-width: 100% !important; padding-right:15px; flex: 0 0 100%; }
+	.organisations-right {width: 100%;}
+	.fild-stats-cont {padding: 35px 25px 35px 25px;}
+	.add-logo-box {width: 50%;}
+	.add-logo-box input {width: 100%;}
+	.add-img-box {width: 47%;}
+	.organisations-section .col-md-4 {max-width: 50%;flex: 0 0 50%;}
+}
+@media screen and (max-width:992px) { 
+	.loing-text h1 {font-size: 2.5em;padding: 0 0 19px;}
+	.loing-text {padding:30px;}
+	.login-content {width: 45%;} 
+	.download-app {margin: 30px auto 0;}
+ 	/*nav, .sidebar-menu {width: 250px;left: -182px;}*/
+ 	nav .logo-box {padding: 17px 25px 18px 43px;width: 40px;pointer-events: all;}
+	.logout-box {padding: 24px 6px 0 28px;}
+	.top-scrollbar {margin-left:0;}
+	main.main-content {background-color: #f1f5f8;position: relative;right: 0px; transition: all 0.5s ease-in-out;}
+	.sild-menu main.main-content {right: -250px}
+	nav .logo-box a {width: 0;opacity: 0;}
+	.logo-box img {opacity: 1;}
+	.sidebar-menu ul li a {padding: 12px 26px 16px 25px;}
+	.sidebar-tab .mCSB_scrollTools {width: 5px;}
+	.sidebar-tab .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, 
+	.sidebar-tab .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
+	.sidebar-tab .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {width: 5px;}
+	.notification-section ul li {padding-right: 20px;}
+	.content-top {height: auto; padding-bottom: 15px;}
+	.profile-user-list,.profile-box {padding-right: 0;}
+	header {height: 60px; position: fixed; margin-left: 70px; width: calc(100% - 70px); z-index: 99; top: 0; }
+	.profile-box {padding-top: 11px;}
+	/*nav .logo-box {padding: 17px 25px 18px 57px;}*/
+	nav .tob-nve-btn {top: 14px; right: auto; left: 25px; }
+	.sidebar-menu {padding-top: 0; left:-250px; position: relative; clear: both; }
+	.content-top .row {width: 100%;}
+	.search-section input[type="serch"] {height: 40px; margin-top: 11px;}
+	.search-section button.submit-btn {top: 18px;}
+	.app-body {background-color: transparent;}
+	main.main-content {background-color: #f1f5f8; margin-top: 60px;}
+	.sild-menu nav .logo-box {padding: 17px 25px 18px 44px;}
+	.sild-menu nav, .sild-menu .sidebar-menu {width: 250px;}
+	.sild-menu .sidebar-menu {left: 0;}
+	nav {width: auto; z-index: 99; background-color: transparent; pointer-events: none;}
+	.sild-menu .top-scrollbar {margin-left: 0;}
+	.sild-menu nav .sidebar-menu ul li span.menu-tital {opacity: 1;}
+	.sild-menu nav {pointer-events: all;}
+	.sild-menu .logout-box a span:last-child {opacity: 1;}
+	span.nav-arrow {padding-top: 13px;}
+	.sidebar-menu ul li span.icon-img {padding-top: 7px;}
+	.sidebar-menu ul li.active span.nav-arrow {background-position: left 14px;}
+	span.nav-arrow.minus_img {transform: translateY(3px) rotate(-90deg); -ms-transform: translateY(3px) rotate(-90deg); -webkit-transform: translateY(3px) rotate(-90deg);}
+}
+@media screen and (max-width:767px) {
+	.loing-text .logo-box { display: block; } 
+	.loing-text h1 {display: none;}
+	.logo-section {display: none;}
+	.loing-text .logo-box img {width: auto;max-width: 100%;}
+	.login-content {width:100%;background: url(../images/login-bg.jpg) no-repeat center center; background-size: cover;} 
+	.login-content .form-section input {background-color: transparent; border-color: #fff;}
+	.login-content .form-section input::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color:#fff; }
+	.login-content .form-section input::-moz-placeholder { /* Firefox 19+ */ color: #fff; }
+	.login-content .form-section input:-ms-input-placeholder { /* IE 10+ */ color: #fff; }
+	.login-content .form-section input:-moz-placeholder { /* Firefox 18- */ color: #fff; }
+	.form-section button.btn.btn-primary {background-color: #fff; color: #3498db;}
+	.forget-pass,.account,.download-app span {font-size: 1em; color: #fff;}
+	.account a,.download-app span a {color: #000;}
+	.logo-box {padding: 15px 20px 30px;}
+	section.loging-section {height: 100%;}
+	.notification-section ul li {padding-right: 20px;}
+	.add-btn-section {padding-top: 0;}
+	.page-nav {float: right;}
+	.page-tital {float: left;}
+	.staff-list .staff-list-section .col-md-3 {max-width: 100%;flex: 0 0 100%;}
+	.select-list ul li {padding-right: 11px;}
+	.dashbowrd .col-md-7 {padding-left: 15px;}
+	.ragistration-detele-section label {float: left;}
+	.add-fild-section .col-md-3 {text-align: left;} 
+	.ragistration-detele-section .col-md-9 input,
+	.ragistration-detele-section .col-md-9 select.form-control:not([size]):not([multiple]) {border-top: solid 1px #b8b6b6; height: 45px; padding: 0;}
+	span.eye-icon {top: 13px;}
+	.ragistration-detele-section .col-md-9 select.form-control:not([size]):not([multiple]){background-position: 97% center !important;}
+}
+@media screen and (max-width:640px) { 
+	.add-logo-box {width:100%;}
+	.add-img-box {width: 100%;margin-left: 0;} 
+	.organisations-section .col-md-4 {max-width: 100%;flex: 0 0 100%;}
+	.search-section form {display:none;}
+	.search-section {width: auto;}
+	.add-btn-section {display: none;}
+	.notification-section {display: none;}
+	.page-nav {float: right;width: 100%;}
+	.select-list ul li {margin-bottom: 5px; padding-left: 0; width: 100%; padding-right: 0; }
+	.footer-right {float: right;width: 100%;}
+	.ragistration-detele-section {padding: 34px 20px 45px;}
+	.select-list ul li select {width: 100%;}
+}
+@media screen and (max-width:480px) {
+	.organisations-head {padding: 25px 15px 15px 15px;}
+	.forget-pass, .account {width: 100%; text-align: center;}
+	.nav-pills li.nav-item {width: 100%;margin-bottom: 10px;}
+.nav-pills li.nav-item a {width:100%; margin-right:0px;}
+.rgist-compy-logo img {
+    margin: 0 auto;
+}
+.rgist-compy-logo {
+    padding-top: 8px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.chng-dlt-btn {
+    float: left;
+    padding-left:0;
+    width: 100%;
+    text-align: center;
+}
+.chng-dlt-btn button.dlt {margin: 0 auto; }
+.nav-tabs li {width: 100%; margin-right: 0;}
+.nav-tabs li a {width: 100%;}
+}
